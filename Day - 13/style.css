@@ -1,0 +1,33 @@
+body {
+    font-family: monospace;
+    text-align: center;
+}
+
+header {
+    background-color: #0096FF;
+    color: #FFF;
+    font-size: 1rem;
+    padding: 2em;
+    box-shadow: 0px 2px 7px 5px rgba(0, 0, 0, 0.4);
+}
+
+p {
+    font-size: 2rem;
+    opacity: .6;
+    padding: 1em;
+    color: #0096FF;
+}
+
+#flag {
+    height: 200px;
+    background-image: url(https://i.postimg.cc/DZtDxj7X/img-flag.jpg);
+    background-repeat: no-repeat;
+    transition: 0.3s;
+    border-left: 2px solid;
+    filter: contrast(1.5);
+}
+
+#flag:hover {
+    background-position: 0 -200px;
+    filter: brightness(95%);
+}
