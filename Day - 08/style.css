@@ -1,0 +1,20 @@
+h1 {
+    font-family: monospace;
+    font-size: 3rem;
+}
+
+ul {
+    color: red;
+}
+
+
+/* This is class selector */
+.para {
+    color: mediumseagreen;
+}
+
+
+/* This is id selector */
+#blue {
+    color: blue;
+}
