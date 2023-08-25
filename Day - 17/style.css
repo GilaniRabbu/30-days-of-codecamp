@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+
+/* Navigation */
+nav {
+    background-color: slateblue;
+    padding: 1rem 1.5rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+
+/* Header */
+header {
+    padding: 2.5rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 2rem;
+}
+
+
+/* Home Section */
+section {
+    background-color: rgb(245, 230, 210);
+    display: flex;
+}
+
+article {
+    max-width: 65%;
+    padding: 2rem 1rem;
+}
+
+article h2 {
+    margin-bottom: 2rem;
+}
+
+article p:first-of-type {
+    margin-bottom: 3rem;
+}
+
+aside {
+    max-width: 35%;
+    margin-left: auto;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+
+/* Pagination */
+.pagination {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.tooltip {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    color: white;
+    background-color: #0096FF;
+    padding: 0.7rem 1.5rem;
+    margin-left: 1rem;
+}
+
+.tooltip:hover {
+    opacity: 0.8;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 120%;
+    left: 25%;
+    margin-left: -55px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
