@@ -1,0 +1,33 @@
+/* Styling Body */
+body {
+    font-family: monospace;
+    font-size: 1rem;
+    padding: 1em;
+}
+
+
+/* Styling Header */
+header {
+    background-color: mediumseagreen;
+    color: #151515;
+    padding: 2em 1em;
+}
+
+
+/* Styling Paragraph */
+p {
+    background-color: darkslateblue;
+    color: white;
+    padding: 1em;
+}
+
+
+/* Create a Box */
+.box {
+    width: 200px;
+    height: 200px;
+    background: skyblue;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 5px;
+}
