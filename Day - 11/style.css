@@ -1,0 +1,36 @@
+body {
+    font-family: monospace;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #052570;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    cursor: pointer;
+    list-style: none;
+    margin: 0;
+    padding: 1rem;
+    background-color: #8fb4ff;
+}
+
+li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #151515;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+li:hover {
+    background-color: #4875ce;
+}
